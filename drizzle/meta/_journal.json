@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1732566699625,
+      "tag": "0000_colossal_may_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1732571097488,
+      "tag": "0001_robust_venom",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1732571590945,
+      "tag": "0002_burly_captain_britain",
+      "breakpoints": true
+    }
+  ]
+}

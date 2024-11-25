@@ -1,0 +1,27 @@
+{
+  "name": "drizzle",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch run ./index.ts",
+    "db:migrate": "bun drizzle-kit generate && bun drizzle-kit migrate",
+    "db:up": "docker compose up -d"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.10",
+    "drizzle-kit": "^0.28.1",
+    "tsx": "^4.19.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.36.4",
+    "openai": "^4.73.1",
+    "pg": "^8.13.1",
+    "postgres": "^3.4.5"
+  }
+}
